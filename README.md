@@ -4,9 +4,13 @@ Aplikasi pencatatan kebugaran (*Progressive Web App*) yang dirancang untuk membe
 
 ## Dokumentasi Rekayasa Perangkat Lunak
 Seluruh rancangan sistem mengacu pada dokumen Spesifikasi Kebutuhan Perangkat Lunak (SRS) format Karl E. Wiegers.
+
 * **SRS Workout Tracker R7U.pdf**
 * Use-Case Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+
 * Activity Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=wphwWem6zCR-5-3TY6mO&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+
+* Sequence diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=BDUC9B4Ka45RGMvuJBSI&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
 
 ## Anggota Kelompok 1
 * **Akmal Mahesa** - *202343501641*
