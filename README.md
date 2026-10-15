@@ -13,6 +13,8 @@ Seluruh rancangan sistem mengacu pada dokumen Spesifikasi Kebutuhan Perangkat Lu
 * Sequence diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=BDUC9B4Ka45RGMvuJBSI&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
 
 * State Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=Ss9P4KM2mU-TYMSNOm5J&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+* Class diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=idYWPQMBtuiGAbN6In8x&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+* Object Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=JmrnkE4_oKIYCmquLA2O&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
 
 ## Anggota Kelompok 1
 * **Akmal Mahesa** - *202343501641*
