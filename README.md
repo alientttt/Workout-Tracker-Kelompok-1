@@ -1,35 +1,75 @@
-# Workout-Tracker-Tugas-Kelompok-RPL
+# React + TypeScript + Vite
 
-Aplikasi pencatatan kebugaran (*Progressive Web App*) yang dirancang untuk membebaskan beban kognitif pengguna melalui pencatatan instan dan manajemen waktu istirahat otomatis yang dinamis. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Dokumentasi Rekayasa Perangkat Lunak
-Seluruh rancangan sistem mengacu pada dokumen Spesifikasi Kebutuhan Perangkat Lunak (SRS) format Karl E. Wiegers.
+Currently, two official plugins are available:
 
-* **SRS Workout Tracker R7U.pdf**
-* Use-Case Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* Activity Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=wphwWem6zCR-5-3TY6mO&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+## React Compiler
 
-* Sequence diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=BDUC9B4Ka45RGMvuJBSI&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* State Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=Ss9P4KM2mU-TYMSNOm5J&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
-* Class diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=idYWPQMBtuiGAbN6In8x&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
-* Object Diagram = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=JmrnkE4_oKIYCmquLA2O&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+## Expanding the ESLint configuration
 
-## Anggota Kelompok 1
-* **Akmal Mahesa** - *202343501641*
-* **Ifal Maulana** - *202343501627*
-* **Zahra Aulia Salsabila** - *202343501626*
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## Fitur Utama
-* **One-Tap Logging:** Antarmuka tombol penyelesaian berukuran besar untuk menyimpan rekam jejak repetisi dan beban secara instan.
-* **Auto-Rest Timer:** Logika asinkronus yang langsung menghitung mundur waktu istirahat dan memicu *haptic feedback* sesaat setelah set diselesaikan.
-* **Exercise Swap:** Navigasi penukaran urutan gerakan secara dinamis dengan rekomendasi substitusi kelompok otot yang sama.
-* **Dashboard Analytics:** Visualisasi metrik *Progressive Overload* dan riwayat *Personal Record* (PR) pengguna.
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-## Arsitektur & Teknologi
-Sistem ini menggunakan arsitektur *Decoupled* (pemisahan Frontend dan Backend) yang dieksekusi secara efisien menggunakan ekosistem JavaScript:
-* **Frontend:** React (Vite) dengan Tailwind CSS.
-* **Backend:** Node.js (Express) dieksekusi menggunakan **Bun**.
-* **Storage:** Sinkronisasi *Cloud Database* eksternal dengan retensi *Web Storage API* (localStorage) untuk akses *offline*.
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+
+```
+
+You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+
+```
