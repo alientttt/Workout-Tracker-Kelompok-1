@@ -23,6 +23,8 @@ Seluruh rancangan sistem mengacu pada dokumen Spesifikasi Kebutuhan Perangkat Lu
 
 * UI/UX = **https://www.figma.com/design/bLD93lcf4aAWGGwjs1GyIw/Workout-Tracker?node-id=0-1&t=J1UMHtXI62J4fwxR-1**
 
+* Kontruksi & Implementasi = **https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Workout%20Tracker%20UML.drawio&page-id=roCdxzGdSqcH_iKZ1kxr&dark=0#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1S8-kwnaQ87zqc-WnmriI1eAlsApcZrdT%26export%3Ddownload**
+
 ## Anggota Kelompok 1
 * **Akmal Mahesa** - *202343501641*
 * **Ifal Maulana** - *202343501627*
