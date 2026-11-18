@@ -28,7 +28,7 @@ Seluruh rancangan sistem mengacu pada dokumen Spesifikasi Kebutuhan Perangkat Lu
 ## Anggota Kelompok 1
 * **Akmal Mahesa** - *202343501641*
 * **Ifal Maulana** - *202343501627*
-* **Zahra Aulia Salsabila** - *202343501626*
+* **Zahra Aulia Salsabila** - *202343501621*
 
 ## Fitur Utama
 * **One-Tap Logging:** Antarmuka tombol penyelesaian berukuran besar untuk menyimpan rekam jejak repetisi dan beban secara instan.
